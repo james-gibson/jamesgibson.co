@@ -1,0 +1,46 @@
+.home {
+  display: grid;
+  gap: 2.5rem;
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      font-weight: 600;
+    }
+    .portrait {
+      border-radius: 50%;
+      width: 40%;
+      height: auto;
+      shape-margin: 1rem;
+      shape-outside: circle(50% at 0 0);
+      vertical-align: middle;
+    }
+
+    .tagline {
+      font-size: 1.5rem;
+      font-family: var(--serif-font);
+    }
+  }
+
+  section {
+    .skilllist li {
+      margin-bottom: 2rem;
+
+      h3 {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 520px) {
+    .row {
+      flex-direction: column;
+
+      .portrait {
+        width: 70%;
+      }
+    }
+  }
+}

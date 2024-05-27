@@ -1,0 +1,52 @@
+.cvpage {
+  display: grid;
+  gap: 2rem;
+
+  .top,
+  section {
+    img {
+      width: 100%;
+    }
+  }
+
+  .top {
+    h1 {
+      padding: 0;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+
+  section {
+    .row {
+      display: flex;
+      gap: 2.5rem;
+
+      img {
+        max-width: 500px;
+      }
+    }
+
+    img {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  @media (max-width: 880px) {
+    section img {
+      max-height: 480px;
+      object-fit: contain;
+    }
+
+    .break {
+      flex-direction: column;
+
+      .left {
+        margin-right: 0;
+      }
+    }
+  }
+}

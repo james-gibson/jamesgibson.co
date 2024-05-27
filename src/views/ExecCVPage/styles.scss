@@ -1,0 +1,67 @@
+.leadershipcv {
+  display: grid;
+  gap: 2rem;
+
+  .top,
+  section {
+    img {
+      width: 100%;
+    }
+  }
+
+  .top {
+    h1 {
+      padding: 0;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+
+  section {
+    h2,
+    h3 {
+      margin-bottom: 1.25rem;
+    }
+    .row {
+      display: flex;
+      gap: 2.5rem;
+
+      img {
+        max-width: 500px;
+      }
+    }
+
+    img {
+      margin-bottom: 1.25rem;
+    }
+
+    ul {
+      display: grid;
+      gap: 1.25rem;
+
+      li ul {
+        // outline: 2px solid pink;
+        padding-bottom: 1.5rem;
+        border-color: transparent;
+      }
+    }
+  }
+
+  @media (max-width: 880px) {
+    section img {
+      max-height: 480px;
+      object-fit: contain;
+    }
+
+    .break {
+      flex-direction: column;
+
+      .left {
+        margin-right: 0;
+      }
+    }
+  }
+}

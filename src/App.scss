@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wdth,wght@112.5,500&display=swap");
+#root {
+  --serif-font: "Anek Devanagari", Helvetica, sans-serif;
+
+  --sans-serif-font: system-ui, Helvetica, sans-serif;
+
+  font-family: var(--sans-serif-font);
+  min-width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #ff7b9e;
+  // more intense color set
+  // background: linear-gradient(
+  //   to bottom,
+  //   #fd39d4,
+  //   #fd5497,
+  //   #fe40a6,
+  //   #ff4677,
+  //   #ff7b9e
+  // );
+  background: linear-gradient(
+    to bottom right,
+    #f69c9c,
+    // #f6a6bc,
+    // #f3acc8,
+    #f6acf3,
+    #ffa4cc
+  );
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif-font);
+  padding: 0;
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 {
+  padding: 2rem 0;
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.125rem;
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.75rem;
+}
+main {
+  flex: 1;
+  // outline: 2px solid red;
+
+  // * {
+  //   outline: 2px solid hotpink;
+  // }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  font-family: var(--serif-font);
+  font-size: 1.25rem;
+
+  nav {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      letter-spacing: 4px;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  header,
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+}
+
+main {
+  margin-bottom: 3rem;
+  align-items: start;
+}
