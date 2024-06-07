@@ -4,7 +4,7 @@ import bvr2 from "../../assets/bvr-builderSpread.png";
 import dst1 from "../../assets/dst-documentation.png";
 import dst2 from "../../assets/proto6.png";
 
-import resume from "../../assets/VKraucunas_2024_Resume_web.pdf";
+// import resume from "../../assets/VKraucunas_2024_Resume_web.pdf";
 import "./styles.scss";
 
 function EngCVPage() {
@@ -64,7 +64,7 @@ function EngCVPage() {
         <p>Designed a code-first federated GraphQL system using Nest.js</p>
         <ul>
           <li>29 Subgraphs</li>
-          <li>Over 500 types</li>
+          <li>500+ types</li>
           <li>2,000+ fields</li>
           <li>Four separate environments</li>
           <li>
@@ -81,7 +81,7 @@ function EngCVPage() {
         <ul>
           <li>
             Un-recursed project dependencies from a bloated 1.3 million node
-            modules while maintaining shipping capabilities in a live
+            modules down to 45 thousand while maintaining shipping capabilities in a live
             environment
           </li>
           <li>
