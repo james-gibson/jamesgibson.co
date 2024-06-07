@@ -8,8 +8,8 @@ function ExecCVPage() {
         <h2>Presence</h2>
         <ul>
           <li>
-            I promote a culture of asynchronous knowledge sharing for a globally
-            distributed set of consumers
+            I promote a culture of asynchronous knowledge sharing to globally
+            distributed consumers
           </li>
           <li>Customer-focused approach; driven to enhance user experience</li>
           <li>
