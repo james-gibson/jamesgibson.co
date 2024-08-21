@@ -29,14 +29,14 @@ function EngCVPage() {
           </li>
           <li>
             Taught high velocity DevOps practices to a team of six
-            <ul>
+            </li>
               <li>Self service vs White Glove models</li>
               <li>
                 Asynchronous through documentation by default to support an
                 international set of clients
               </li>
               <li>
-                Sentry / OpentTelemetry for application and Github Action
+                Sentry / Open Telemetry for application and Github Action
                 metrics
               </li>
               <li>
@@ -55,8 +55,6 @@ function EngCVPage() {
                 Comfortable acting as primary point of contact for community
                 needs and concerns
               </li>
-            </ul>
-          </li>
         </ul>
       </section>
       <section>
