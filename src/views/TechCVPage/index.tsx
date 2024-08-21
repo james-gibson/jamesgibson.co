@@ -22,7 +22,7 @@ function EngCVPage() {
       </div>
       <section>
         <h2>Platform Engineering</h2>
-        <ul>
+        {/* <ul> */}
           <li>
             Oversaw CI/CD pipeline management to improve overall system
             performance and reduce cycle time
@@ -30,6 +30,7 @@ function EngCVPage() {
           <li>
             Taught high velocity DevOps practices to a team of six
             </li>
+            <ul>
               <li>Self service vs White Glove models</li>
               <li>
                 Asynchronous through documentation by default to support an
@@ -41,30 +42,31 @@ function EngCVPage() {
               </li>
               <li>
                 Used automation to streamline Slack channel introductions,
-                sharing helpfull documentation with ne clients and GitHub issue
-                and Pull Request labelling
+                sharing helpful documentation with new clients and applying issue
+                and Pull Request labeling
               </li>
-              <li>
-                As Platform Architect, I had to communicate effectively with
-                stakeholders across key business areas such as Identity
-                Management, Marketing and Customer Services, Salesforce /
-                Informatica Integrations, Cloud Infrastructure and Deployments,
-                SaaS Billing calculations
-              </li>
-              <li>
-                Comfortable acting as primary point of contact for community
-                needs and concerns
-              </li>
-        </ul>
+            </ul>
+            <li>
+              As Platform Architect, I had to communicate effectively with
+              stakeholders across key business areas such as Identity
+              Management, Marketing and Customer Services, Salesforce /
+              Informatica Integrations, Cloud Infrastructure and Deployments,
+              SaaS Billing calculations
+            </li>
+            <li>
+              Comfortable acting as primary point of contact for community
+              needs and concerns
+            </li>
+        {/* </ul> */}
       </section>
       <section>
         <h2>Graph Engineering</h2>
         <p>Designed a code-first federated GraphQL system using Nest.js</p>
         <ul>
-          <li>29 Subgraphs</li>
+          <li>40+ Subgraphs</li>
           <li>500+ types</li>
-          <li>2,000+ fields</li>
-          <li>Four separate environments</li>
+          <li>2,500+ fields</li>
+          <li>Four separate GraphOS environments</li>
           <li>
             Converted existing Graph mesh into spec-compliant Federated GQL
           </li>
