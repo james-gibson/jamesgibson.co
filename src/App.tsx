@@ -30,8 +30,7 @@ function App() {
       </main>
       <footer className="content-grid">
         <p>
-          Copyright {`${new Date().getFullYear()}`} James Gibson. All rights
-          reserved.
+          {`${new Date().getFullYear()}`} James Gibson
         </p>
       </footer>
     </Router>
