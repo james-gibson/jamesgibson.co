@@ -19,12 +19,9 @@ function Home() {
         <h2>Basics</h2>
         <ul>
           <li>26 years of programming experience</li>
-          <li>
-            12 years of direct experience working with technical and engineering
-            leadership
-          </li>
-          <li>Over 10 years of providing technical and operational support</li>
-          <li>Over 8 years of experience in team/project leadership roles</li>
+          <li>12 years of providing support and working with technical, operational and engineering
+          leadership</li>
+          <li>10 years of hands on experience in team/project leadership roles</li>
         </ul>
       </section>
       <section>
