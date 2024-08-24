@@ -8,7 +8,7 @@ function Home() {
         <div>
           <h1>Hi there!</h1>
           <p className="tagline">
-            I'm James, a <span>ACTION NEEDED: ENTER INFO HERE</span> living in
+            I'm James, an <span>expert Node.js Platform Architech</span> living in
             Denver, CO
           </p>
         </div>
@@ -24,7 +24,7 @@ function Home() {
             leadership
           </li>
           <li>Over 10 years of providing technical and operational support</li>
-          <li>8+ years of experience in team/project leadership roles</li>
+          <li>Over 8 years of experience in team/project leadership roles</li>
         </ul>
       </section>
       <section>
