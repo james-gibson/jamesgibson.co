@@ -85,7 +85,7 @@ function EngCVPage() {
             environment
           </li>
           <li>
-            Maintained code bases containing 0 - 150 modules
+            Maintained multiple code bases containing 0 - 150 npm modules
             <ul>
               <li>
                 Standardized format with automated linting and static review

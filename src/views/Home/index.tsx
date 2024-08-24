@@ -61,36 +61,6 @@ function Home() {
           </li>
         </ul>
       </section>
-      {/* <section>
-        <h2>Toolbox</h2>
-        <p>
-          <strong>Front-end:</strong> JavaScript, React, Vue, TypeScript, HTML,
-          CSS, SCSS, Shopify, Zustand
-        </p>
-        <p>
-          <strong>Back-end:</strong> Node, Express, PostgreSQL, Mongo
-        </p>
-        <p>
-          <strong>Workflow:</strong> Git, Github, Github Actions, GitLab, Jest,
-          ESLint, Stylelint, Vite, Webpack, JIRA, Trello
-        </p>
-        <p>
-          <strong>Additional skills:</strong> Style dictionary, Figma, Design
-          thinking, Systems thinking, Branding, Procreate, GIMP, Headshot
-          photography
-        </p>
-      </section>
-      <section>
-        <h2>What else?</h2>
-        <ul className="skilllist">
-          <li>
-            <strong>What do you get up to outside of work?</strong> I am a
-            nature nerd, and enjoy regenerative gardening, birding, and nature
-            photography. In the colder months, I am fond of video games and
-            making art.
-          </li>
-        </ul>
-      </section> */}
     </div>
   );
 }
