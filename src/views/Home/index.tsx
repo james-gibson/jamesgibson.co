@@ -8,7 +8,7 @@ function Home() {
         <div>
           <h1>Hi there!</h1>
           <p className="tagline">
-            I'm James, an <span>expert Node.js Platform Architech</span> living in
+            I'm James, an <span>expert Node.js Platform Architect</span> living in
             Denver, CO
           </p>
         </div>
