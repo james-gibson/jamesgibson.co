@@ -12,13 +12,13 @@ function EngCVPage() {
     <div className="cvpage">
       <div className="top">
         <h1>Engineering Experience</h1>
-        <a
+        {/* <a
           download
           // href={resume}
           href="#"
         >
           <h2>Resume</h2>
-        </a>
+        </a> */}
       </div>
       <section>
         <h2>Platform Engineering</h2>
