@@ -30,7 +30,7 @@ function Home() {
           <li>
             <h3>Technical Leadership</h3>
             <p>
-              Given a set of constraints, known or unknown, I use data driven
+              When presented a set of constraints, known or unknown, I use data driven
               methodologies to identify present and future challenges; while
               affecting change across organizations at a micro-technical level
               using my broad experience in working through complex problems to

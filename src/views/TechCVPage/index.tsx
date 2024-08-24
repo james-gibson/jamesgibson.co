@@ -11,7 +11,7 @@ function EngCVPage() {
   return (
     <div className="cvpage">
       <div className="top">
-        <h1>Work Log</h1>
+        <h1>Engineering Experience</h1>
         <a
           download
           // href={resume}

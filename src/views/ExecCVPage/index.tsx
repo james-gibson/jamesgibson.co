@@ -3,7 +3,7 @@ import "./styles.scss";
 function ExecCVPage() {
   return (
     <div className="leadershipcv">
-      <h1>Leadership Summaries</h1>
+      <h1>Leadership Experience</h1>
       <section>
         <h2>Presence</h2>
         <ul>
@@ -13,22 +13,22 @@ function ExecCVPage() {
           </li>
           <li>Customer-focused approach; driven to enhance user experience</li>
           <li>
-            Experienced working with cross-functional teams to build common
-            processes and alignment on initiatives
+            Very experienced working with cross-functional teams to build common
+            processes and integrations
           </li>
           <li>
-            Skilled at defining KPIs/SLAs to monitor and drive business
+            Skilled at defining new or updating existing KPIs/SLAs to monitor and drive business
             objectives
           </li>
           <li>
-            A strong teacher mentality enables me to reach audiences both
-            internal and external from non technical executives to technical
+            My teacher mentality enables me to reach audiences both
+            internal and external ranging from non technical executives to technical
             junior engineers
           </li>
         </ul>
       </section>
       <section>
-        <h2>Risk Management</h2>
+        <h2>Applied Risk Management</h2>
         <ul>
           <li>
             I leverage the breadth of my technical background and knowledge to
