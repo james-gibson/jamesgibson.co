@@ -12,7 +12,7 @@ function Home() {
             Denver, CO
           </p>
         </div>
-        <img className="portrait" src={headshot} alt="" />
+        <img className="portrait" src={headshot} alt="James, sitting at his desk, wearing bright red sunglasses. his hat shades half his face but not his thick red beard" />
       </section>
 
       <section>
