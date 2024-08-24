@@ -111,14 +111,13 @@ function ExecCVPage() {
       <section>
         <h2>Educational Experience</h2>
         <ul>
+          <li>B.S. Information Systems @ Salisbury University</li>
           <li>
-            Community taught engineer who has held positions in Fortune 50 and
-            smaller
+            Community taught engineer
           </li>
           <li>Volunteered as community administrator/moderator for 6 years</li>
           <li>
-            Running successful Minecraft servers for three years started my
-            infrastructure learning journey
+            Ran successful Minecraft servers for 3 years
           </li>
         </ul>
       </section>
