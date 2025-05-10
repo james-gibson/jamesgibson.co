@@ -21,7 +21,7 @@ function Contact() {
           <strong>GitHub</strong>
         </p>
       </a>
-      <Quote gistUrl='https://gist.github.com/james-gibson/7d8ea6bb5166e5f04cb38d71fec25a68' />
+      <Quote gistUrl='https://gist.githubusercontent.com/james-gibson/7d8ea6bb5166e5f04cb38d71fec25a68/raw/a4cbf6f3b5a99b16488865f1cbc32d60f24b78b5/quote.json' />
     </div>
   );
 }
