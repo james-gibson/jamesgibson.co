@@ -1,5 +1,6 @@
 import "./styles.scss";
 import Quote from "./Quote";
+import EnhancedQuote from "./EnhancedQuote";
 
 function Contact() {
   return (
@@ -21,7 +22,7 @@ function Contact() {
           <strong>GitHub</strong>
         </p>
       </a>
-      <Quote gistUrl='https://gist.githubusercontent.com/james-gibson/7d8ea6bb5166e5f04cb38d71fec25a68/raw' />
+      <EnhancedQuote gistUrl='https://gist.githubusercontent.com/james-gibson/7d8ea6bb5166e5f04cb38d71fec25a68/raw' />
     </div>
   );
 }
