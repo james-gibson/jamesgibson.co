@@ -3,7 +3,7 @@ function Why() {
   return (
     <div className="why">
       <section className="row">
-        <EnhancedQuote gistUrl='https://gist.githubusercontent.com/james-gibson/20f8bbb5801907b605b62fb1344b6686/raw'/>
+        <EnhancedQuote gistUrl='https://gist.githubusercontent.com/james-gibson/20f8bbb5801907b605b62fb1344b6686/raw/c80cbd73788ba79e0128fabe0bd1d5b0a10d2160/hello.jsx'/>
       
       </section>
     </div>
