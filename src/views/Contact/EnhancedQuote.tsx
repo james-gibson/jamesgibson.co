@@ -24,6 +24,9 @@ const EnhancedQuote = ({ gistUrl }) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
+        setGistContent(response.body);
+        setContentType('jsx');
+        return;
         const data = await response.json();
         const files = data.files;
 
