@@ -1,6 +1,4 @@
-
-import headshot from "../../assets/headshot.jpeg";
-
+import EnhancedQuote from "../Contact/EnhancedQuote";
 function Why() {
   return (
     <div className="why">
