@@ -24,7 +24,7 @@ const EnhancedQuote = ({ gistUrl }) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-        setGistContent(response.body);
+        setGistContent(response.text());
         setContentType('jsx');
         return;
         const data = await response.json();
