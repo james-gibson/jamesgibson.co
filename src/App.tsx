@@ -4,6 +4,7 @@ import Home from "./views/Home";
 import TechCVPage from "./views/TechCVPage";
 import ExecCVPage from "./views/ExecCVPage";
 import Contact from "./views/Contact";
+import Why from "./views/Why";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         Skip to main content
       </Link>
       <header>
+        <Link to="/why">why</Link>
         <Link to="/">JG</Link>
         <nav>
           <Link to="/cv-technical">engineering</Link>
@@ -22,6 +24,7 @@ function App() {
       <main id="maincontent" className="content-grid">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/why" element={<Why />} />
           <Route path="/cv-technical" element={<TechCVPage />} />
           <Route path="/cv-executive" element={<ExecCVPage />} />
           <Route path="/contact" element={<Contact />} />
