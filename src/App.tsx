@@ -13,7 +13,7 @@ function App() {
         Skip to main content
       </Link>
       <header>
-        <Link to="/why">why</Link>
+        {/* <Link to="/why">why</Link> */}
         <Link to="/">JG</Link>
         <nav>
           <Link to="/cv-technical">engineering</Link>
